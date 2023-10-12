@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+    background-color: #23B5d3;
+    
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #071013;
+}
+
+button {
+    background-color: #dfe0e2;
+    color: #071013;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 5px;
+}
+
